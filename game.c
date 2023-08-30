@@ -10,3 +10,9 @@ void drawBoard ();
 int menu();
 int start_game();
 void instructions();
+
+int main(){
+system("cls");
+menu();
+getch();
+}

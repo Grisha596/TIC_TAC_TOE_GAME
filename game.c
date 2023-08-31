@@ -16,3 +16,12 @@ system("cls");
 menu();
 getch();
 }
+int menu()
+{
+int option;
+char ch='y';
+system("cls");
+printf("\n");
+printf("\n\t\t*****WELCOME TO TIC TAC TOE GAME*****\n\n ");
+printf("\t\t\t\tMENU\n");
+printf("\t\t\t\t****\n");

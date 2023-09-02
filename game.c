@@ -32,3 +32,8 @@ printf("\n\t2.How to play?");
 printf("\n\t3.Exit the game:(\n");
 printf("\nWhat do you want to do?:>");
 scanf("%d",&option);
+switch (option)
+{
+case 1:
+start_game();
+break;

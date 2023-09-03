@@ -37,3 +37,6 @@ switch (option)
 case 1:
 start_game();
 break;
+case 2:
+instructions();
+break;

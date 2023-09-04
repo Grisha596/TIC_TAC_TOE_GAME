@@ -38,3 +38,5 @@ This project is a simple implementation of the popular game Tic Tac Toe using C 
 - Exit the game.
 3. In the game, players take turns selecting an available square by entering the corresponding number.
 4. The game will display the winner or declare a draw when the game ends.
+
+<br>Enjoy playing Tic Tac Toe!

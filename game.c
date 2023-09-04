@@ -40,3 +40,6 @@ break;
 case 2:
 instructions();
 break;
+case 3:
+exit(1);
+default:

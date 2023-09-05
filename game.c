@@ -43,3 +43,10 @@ break;
 case 3:
 exit(1);
 default:
+menu();
+}
+printf("\nDo you want to go back to menu(y/n)?");
+scanf(" %c", &ch);
+}
+return 0;
+}

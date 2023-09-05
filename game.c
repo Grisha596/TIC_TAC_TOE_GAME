@@ -50,3 +50,13 @@ scanf(" %c", &ch);
 }
 return 0;
 }
+void instructions(){
+printf("\n\n");
+printf("\t\t\tHOW TO PLAY?\n\n");
+printf("1.First player will be given mark 'X' and second will be '0'.\n");
+printf("2.Players take turns putting their marks in empty squares.\n");
+printf("3.The first player to get 3 of his/her marks in a row (up, down, across, or diagonally) is the winner.\n");
+printf("4.When all 9 squares are full, the game is over.\n");
+printf("5.If no player has 3 marks in a row, the game ends with a draw.\n");
+}
+

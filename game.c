@@ -94,5 +94,18 @@ square[9]=mark;
 else{
 printf ("Invalid option");
 player--;
-
-
+getch();
+}
+i=checkWin();
+player++;
+}while(i==-1);
+drawBoard();
+if(i==1){
+printf("==>CONGRATULATIONS! player %d ,you have won<==",--player);
+}
+else{
+printf("==>Game draw<==");
+}
+getch();
+return 0;
+}
